@@ -1,0 +1,385 @@
+/* =======basic css start here=========== */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: auto;
+    margin: 0;
+    opacity: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+/* section{
+
+} */
+/* =======basic css start here=========== */
+
+/* =======common css start here=========== */
+.width{
+    width: 82%;
+    margin: auto;
+}
+
+.iconbar{
+    display: flex;
+}
+
+.color-white{
+    color:white;
+
+}
+
+/* =======common css start here=========== */
+
+/* =======topbar start here=========== */
+.img-icon{
+    width: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+    }
+
+.topbar{
+    background-color:yellow;
+    height: 50px;
+    line-height: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.topbar ul{
+    display: flex;
+}
+
+.img-icon{
+    width: 20px;
+}
+
+
+.topbar-left{
+    width: 50%;
+}
+
+.iconbar2{
+    width: 50%;
+}
+
+.iconbar2 .topbar-right{
+    float: right;
+}
+
+.topbar ul{
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+.iconbar2 .img-icon{
+    width: 30px;
+    padding-inline-end: 10px;
+}
+
+.img-icon{
+    padding-left: 20px;
+}
+/*================ topbar end here ===================*/
+
+/* =========bg image and menu========= */
+
+.bg-image{
+    background-image: url("../image/Office\ Building\ 01.png");
+    opacity: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	height: 650px;
+	width: 100%px;
+	margin-top: 0; 
+
+}
+
+.main-header{
+    background-color: rgba(0, 0, 0,.45);
+   	height: 70px;
+	line-height: auto;
+	position: fixed;
+	top: 50px;
+	width: 100%; 
+}
+.main-header{
+    display: flex;
+}
+
+.logo{
+    width: 20%%;
+}
+
+.menu{
+    width: 80%;
+}
+
+.menu ul li{
+    padding-left: 25px;
+}
+
+.menu li a{
+	font-size: 18px;
+    font-weight: bolder;
+	font-weight: 500;
+	color:yellow;
+	letter-spacing: .5px;}
+
+.site-logo{
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    border: dotted 1px black;
+    }
+
+.logo{
+    padding-left: 50px;
+    padding-top: 9px;
+}
+
+.menu li a:hover{
+	/* padding-top: 20px; */
+	border-bottom: 3px solid #468AE7;
+    color: white;
+    width: 100%;
+    }
+
+.menu ul{
+       display: flex;
+       float: right;
+       padding-top: 20px;
+       
+         
+}
+
+/* .menu li img{
+    background-color:whitesmoke;
+    border-radius: 10px;
+    border: solid 5px whitesmoke; 
+} */
+.sss img{
+    border: solid 1px rgba(0, 0, 0,.45);   
+      
+}
+
+.focus-point{
+    color: yellow;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.search-text-box input{
+    padding: 20px;
+    border-radius: 20px ;
+    width: 500px;
+    height: 10px;
+    font-size: 20px;
+    border: rgb(32, 31, 31) solid 1px;
+             
+}
+
+.search-text-box{
+    padding-left: 400px;
+    padding-right:400 ;
+}
+
+.search-click-button{
+    padding-left: 45%;
+    padding-right:45%;
+    padding-top: 0px;
+    
+}
+
+.sb{
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    border: solid rgb(32, 31, 31) 1px;
+    border-radius: 10px;
+}
+
+.service-con{
+    height: 50px;
+    line-height:auto;
+    position: absolute;
+    top: 430px;
+    width: 100%;
+    display: flex;
+}
+
+.kolkata li a{
+    color:ghostwhite;
+}
+
+.kolkata li a:hover{
+    color: red;
+
+}
+
+/* .kolkata li a:active{
+    color: coral;
+    background-color: cornflowerblue;
+}
+
+.kolkata li a:visited{
+    color: darkgreen;
+} */
+.kolkata{
+    float: left;
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: bolder;
+    word-spacing: .1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+.heading3{
+    float: right;
+    color: cyan;
+    font-size: 25px;
+   
+}
+.box-ser-con1{
+    width: 38%;
+}
+
+.sbox-ser-con2{
+    width: 62%;
+}
+
+/* .box-ser-con1 .sbox-ser-con2{
+    display: flex;
+} */
+
+.sbox-ser-con2 ul li{
+    float:left
+}
+
+.container{
+    height: 50px;
+    line-height:auto;
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    /* display: flex; */
+    padding-left: 27%;
+}
+
+.block{
+    float: left;
+    width: 10%;
+    /* border: solid 1px red; */
+    /* padding: 10px; */
+    box-sizing: border-box;
+    color: yellow;
+    text-align: center;
+    text-decoration: yellow;
+    text-transform: capitalize;
+    text-overflow: clip;
+    text-shadow: red;
+    text-rendering: optimizeLegibility;
+}
+.block img{
+    width: 50px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 20px;
+}
+
+/* =========bg image and menu end========= */
+    /* =========catagory start here========= */
+.category{
+    line-height: auto;
+    position: static;
+    top: 700px;
+    /* height: 400px; */
+    width: 90%;
+    padding-left: 120px;
+    padding-top: 50px;  
+   
+}
+
+.box{
+    display: flex;
+    float: left;
+    padding-right: 0px;
+    padding-left: 50px;
+    line-height: 30px;
+    padding-top: 5px;
+    text-decoration: none;
+    letter-spacing: .01em;
+    word-spacing: .1em;
+    width: 28%;
+    font-weight:400px;
+    color: whitesmoke;
+}
+
+.category h4{
+    font-size: 25px;
+    color:red;
+}
+.box ul li{
+    list-style-image: url(../image/icon/cm.png);
+}
+
+/* =======catagory start here============== */
+
+/* ============buttom bar start here============== */
+.bottom-header{
+    line-height: auto;
+    position: absolute;
+    top: 1200px;
+    height: 300px;
+    width: 94%;
+    background-color: orange;
+    color:black;  
+    padding-left: 80px;
+    padding-top: 30px;
+    border-radius: 20px;
+
+}
+
+.bt-box{
+    float: left;
+    padding-left: 25px;
+    padding-right: 15px;
+    width: 20%;
+}
+
+.copy-right{
+    line-height: auto;
+    position: absolute;
+    top: 1550px;
+    width: 100%;
+    color:white;
+    background-color: teal;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
+
